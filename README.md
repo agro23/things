@@ -35,4 +35,4 @@ _This application uses:_
 
 ### License
 
-**Copyright (c) 2018 **_Hamza Naeem and Andy Grossberg_**
+Copyright (c) 2018 **_Hamza Naeem and Andy Grossberg_**
