@@ -37,14 +37,16 @@ var someFunc = function () {
 
     console.log("New Array: " + newArray);
 
-    listItem1 = favoriteThings[1];
-    listItem2 = favoriteThings[0];
-    listItem3 = favoriteThings[2];
+    listItem1 = newArray[1];
+    listItem2 = newArray[0];
+    listItem3 = newArray[2];
+
+    console.log("listItem1: " + listItem1);
 
     output = "<ul>";
-    output = output + "<li>" + favoriteThings[1] + "</li>";
-    output = output + "<li>" + favoriteThings[0] + "</li>";
-    output = output + "<li>" + favoriteThings[2] + "</li>";
+    output = output + "<li>" + listItem1 + "</li>";
+    output = output + "<li>" + listItem2 + "</li>";
+    output = output + "<li>" + listItem3 + "</li>";
     output = output + "</ul>";
 
     HTML = $.parseHTML(output);

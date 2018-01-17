@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/forscripts.js"></script>
+    <meta charset="utf-8">
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container panel">
+      <div class="jumbotron">
+      <h1>YOUR FAVORITE THINGS</h1>
+      </div>
+      <form class="panel" id="things">
+        <div class="row well" id="name">
+          <h2>Who are you:</h2>
+          <div class="form-group col-md-6">
+            <label for="firstname">First Name</label>
+            <input type="text" size="25" length=8 class="form-control" id="first" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="last" placeholder="Last Name">
+          </div>
+        </div>
+
+        <div class = "row well" id="favorites">
+          <h2> Please enter some of your favorite Ice Creams: </h2>
+          <div class="form-group col">
+            <label for="icecream1">First Favorite Ice Cream</label>
+            <input type="text" class="form-control" id="icecream1" placeholder="Chocolate">
+          </div>
+          <div class="form-group col">
+            <label for="icecream2">Second Favorite Ice Cream</label>
+            <input type="text" class="form-control" id="icecream2">
+          </div>
+          <div class="form-group col">
+            <label for="icecream3">Favorite Animal</label>
+            <input type="text" class="form-control" id="icecream3">
+          </div>
+          <div class="form-group col">
+            <label for="icecream4">Favorite Movie</label>
+            <input type="text" class="form-control" id="icecream4">
+          </div>
+          <div class="form-group col">
+            <label for="icecream5">Favorite Song</label>
+            <input type="text" class="form-control" id="icecream5">
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+      </form>
+    <div class="results" id="textHere">
+      <div class="well">
+      <!-- <h2 id="myH2">Here is our array manipulation:</h2> -->
+      <h2 id="myH2"></h2>
+      <p></p>
+    </div>
+    </div>
+    <!--
+
+    X-Build a page with a form containing input fields where users may enter several of their favorite things.
+
+    X-Then, write code that gathers each of these form input values and places them into one array.
+
+    After this is done, use your site to practice targeting and moving elements between arrays:
+
+    * Use square bracket notation to access the second, first, and third elements of the original array of favorite things.
+    * Then, use push() to add only these elements to a brand new array.
+    * Finally, display this new array in your page's HTML as list items in a <ul> tag.
+
+    -->
+  </body>
+</html>
